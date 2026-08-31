@@ -1,0 +1,22 @@
+{
+  "name": "React from Scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc && npx serve",
+    "css:watch":"npx @tailwindcss/cli -i ./src/style/input.css -o .dist/src/style/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "server": "^1.0.42",
+    "tailwindcss": "^4.3.3"
+  }
+}
